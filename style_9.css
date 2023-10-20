@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family:"Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+p{
+	padding: 3px 6px 10px 6px !important;
+	font-size: .48em;
+	line-height: 1.5em;
+	font-weight: 400;
+	text-align: left;
+	color: #fff;
+}
+
+.mobMREC{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	align-content: center;
+	top: 30%;
+	left: 40%;
+	background-color: #05004d;
+}
+
+.gotStartup{
+	position: relative;
+	width: 100%;
+	height: 75px;
+	top: 0;
+	left: 0;
+	float: left;
+	background-color: transparent;
+	z-index: 1;
+}
+
+.MRECcon{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	height: 250px;
+	top: 0;
+	left: 0;
+	float: left;
+	background-color: transparent;
+}
+
+.MRECin1, .MRECin2, .MRECin2{
+	position: relative;
+	height: 250px;
+	top: 0;
+	left: 0;
+	float: left;
+}
+
+.MRECin1{
+	width: 30%;
+	background-color: transparent;
+}
+
+.MRECin2{
+	width: 40%;
+	background-color: transparent;	
+}
+
+.MRECin3{
+	width: 30%;
+	background-color: transparent;
+}
+
+/* contains globe gif */
+.GlobeCon{
+	width: 140px;
+	height: 190px;
+	padding: 2px 0 0 40px;
+	background-color: transparent;	
+}
+/* this is blur glow overlay */
+.GlobeOver{
+	width: 61px;
+	height: 61px;
+	margin: -100px 0 0 14px;
+	float: left;
+	border: 7px solid #34FBFF;
+	border-radius: 50%;
+	opacity: .88;
+	filter: blur(3px);
+  	-webkit-filter: blur(3px);
+}
+
+.regCon{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	top: -49px !important;
+	left: 0;
+	float: left;
+	background-color: transparent;
+	z-index: 3;
+}
+
+.reg{
+	position: relative;
+	width: 60%;
+	height: 40px;
+	margin: 0 20%;
+	border-radius: 25px;
+	background-color: #6364ff;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 1px;
+	z-index: 3;
+}
+
+.reg:hover{
+	background-color: transparent;
+	border: 3px solid #fff !important;
+}
+
+.lightOff{
+	position: relative;
+	width: 100%;
+	height: 250px;
+	margin: -122px 0 0 -20px;
+	float: left;	
+	background-color: transparent;
+}
+
+.eGotYou{
+	position: relative;
+	width: 75%;
+	height: 75px;
+	left: 0;
+	float: left;
+	background-color: transparent;
+	z-index: 1;
+}
+
+.eGotSwitch{
+	position: relative;
+	width: 25%;
+	height: 75px;
+	margin-bottom: 0 !important;
+	left: 0;
+	float: left;
+	background-color: transparent;
+	opacity: 1;
+}
+
+#switchBtn{
+	position: absolute;
+	margin: 21px 0 0 10px;
+	height: 36px;
+	width: 50px;
+	background-color: transparent;
+}
+
+/* this is the div that opens from switchBtn */
+#switchD{
+	position: absolute;
+	width: 180px;
+	height: 250px;
+	overflow: hidden;
+	margin: -250px 0 0 -180px;
+	background-color: transparent;
+	overflow: visible !important;
+}
+
+/* this is blur glow overlay 2 */
+.GlobeOver2{
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	top: -20%;
+	left: -75%;
+	border-radius: 50%;
+	opacity: .3;
+	filter: blur(8px);
+  	-webkit-filter: blur(8px);
+	background-color: #6364ff;	
+	pointer-events: none;
+}
+
+.btnOver{
+	width: 3.1px;
+	height: 3px;
+	margin: 78px 0 0 213.22px;
+	float: left;
+	border-radius: 10%;
+	background-color: #FF375B;	
+	pointer-events: none;
+}
+
+.disCon{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+	left: 0;
+	float: left;
+	background-color: transparent;
+}
+
+.disSVG{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+	left: 0;
+	float: left;
+	background-color: transparent;
+}
+
+.industryCon{
+	position: absolute;
+	width: 450px;
+	display: flex;
+	justify-content: center;
+	height: 250px;
+	top: 0;
+	left: -155px !important;
+	float: left;
+	background-color: transparent;
+}
